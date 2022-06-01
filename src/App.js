@@ -40,3 +40,5 @@ export default App;
 // git remote add origin https://github.com/your-project-directly-link */
 // git push
 // git push --set-upstream origin main
+
+//deneme

@@ -1,0 +1,401 @@
+body,
+html {
+  font-family: "Lato", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #1c424d;
+}
+h1 {
+  font-weight: 700;
+}
+h1 strong {
+  font-weight: 900;
+}
+h2 {
+  font-size: 36px;
+  margin: 0;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+a {
+  color: #5b777f;
+  transition: all 0.5s;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #f1c40f;
+}
+.img-centered {
+  margin: 0 auto;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+
+.section-title {
+  padding: 5rem 0;
+}
+.section-title h2 {
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+
+/* Home Style */
+header {
+  background: url("../public/header-bg.jpg") no-repeat bottom center;
+  background-size: cover;
+  color: #d9e0e2;
+  position: relative;
+  height: 100vh;
+}
+header p {
+  color: #d9e0e2;
+  font-size: 20px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.intro-text {
+  position: relative;
+  padding-top: 250px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 170px;
+}
+.intro-text H1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #d9e0e2;
+  letter-spacing: 2px;
+}
+.color {
+  color: #f3ca27;
+}
+.btn-default {
+  color: #294d57;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f1c40f !important;
+  border: 0;
+  margin: 0 8px;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active {
+  background-color: #c1a618;
+}
+
+/* Gallery Section 
+==============================*/
+#projelerimiz {
+  padding: 80px 0;
+  background: rgb(193, 166, 24); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(193, 166, 24, 1) 0%,
+    rgba(241, 196, 15, 1) 25%,
+    rgba(241, 196, 15, 1) 75%,
+    rgba(193, 166, 24, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(193, 166, 24, 1) 0%,
+    rgba(241, 196, 15, 1) 25%,
+    rgba(241, 196, 15, 1) 75%,
+    rgba(193, 166, 24, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(193, 166, 24, 1) 0%,
+    rgba(241, 196, 15, 1) 25%,
+    rgba(241, 196, 15, 1) 75%,
+    rgba(193, 166, 24, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
+}
+
+
+
+/* About Section */
+#hakkimizda {
+  padding: 80px 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
+  background: rgb(3, 39, 49); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(3, 39, 49, 1) 0%,
+    rgba(3, 46, 58, 1) 20%,
+    rgba(3, 46, 58, 1) 100%,
+    rgba(3, 39, 49, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(3, 39, 49, 1) 0%,
+    rgba(3, 46, 58, 1) 20%,
+    rgba(3, 46, 58, 1) 100%,
+    rgba(3, 39, 49, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(3, 39, 49, 1) 0%,
+    rgba(3, 46, 58, 1) 20%,
+    rgba(3, 46, 58, 1) 100%,
+    rgba(3, 39, 49, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
+  color: #5b777f;
+  height: 100vh;
+}
+#hakkimizda h4 {
+  color: #81969c;
+  font-size: 20px;
+}
+#hakkimizda li {
+  margin-bottom: 6px;
+  list-style: none;
+  padding: 0;
+}
+#hakkimizda li:before {
+  content: "✓";
+  color: #f3ca27;
+  padding-right: 5px;
+}
+
+
+/* Contact Section */
+#iletisim {
+  padding: 80px 0 20px 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
+  background: rgb(193, 166, 24); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(193, 166, 24, 1) 0%,
+    rgba(241, 196, 15, 1) 25%,
+    rgba(241, 196, 15, 1) 75%,
+    rgba(193, 166, 24, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(193, 166, 24, 1) 0%,
+    rgba(241, 196, 15, 1) 25%,
+    rgba(241, 196, 15, 1) 75%,
+    rgba(193, 166, 24, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(193, 166, 24, 1) 0%,
+    rgba(241, 196, 15, 1) 25%,
+    rgba(241, 196, 15, 1) 75%,
+    rgba(193, 166, 24, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
+  height: 100vh;
+}
+#iletisim hr {
+  background: #a9971c;
+}
+#iletisim h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+#iletisim form {
+  padding: 30px 0;
+}
+#iletisim .fa {
+  color: #f8e287;
+  margin-bottom: 10px;
+}
+label {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  float: left;
+}
+#iletisim .form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+#iletisim .form-control:focus {
+  border-color: inherit;
+  outline: 0;
+  -webkit-box-shadow: transparent;
+  box-shadow: transparent;
+}
+#iletisim .social {
+  margin-top: 60px;
+}
+#iletisim .social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+#iletisim .social i.fa {
+  font-size: 26px;
+  padding: 4px 5px;
+  color: #f8e287;
+  transition: all 0.5s;
+}
+#iletisim .social i.fa:hover {
+  color: #032731;
+}
+#iletisim .btn {
+  background: transparent;
+  border: 2px solid #fef9e7;
+  border-radius: 4px;
+  padding: 6px 14px;
+  margin-top: 20px;
+  color: #fef9e7;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+#iletisim .btn:hover,
+#iletisim .btn:focus {
+  background: #fef9e7;
+  border: 2px solid #fef9e7;
+  color: #5b777f;
+}
+#iletisim .text-danger {
+  color: #cc3300;
+  text-align: left;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  outline-offset: none;
+}
+/* Footer */
+#footer {
+  background: #032731;
+  padding: 15px 0 10px 0;
+  color: #42626b;
+  text-align: center;
+}
+#footer p {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 40% 0 0;
+  }
+}
+
+@media (max-width: 603px) {
+  #menu.navbar-default {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  label {
+    float: none !important;
+  }
+  .hover-bg .hover-text {
+    padding: 12% 10%;
+  }
+}
+
+@media (max-width: 360px) {
+  .hover-bg .hover-text {
+    padding: 22% 10%;
+  }
+}
+
+
+.text-white {
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+
+
+
+#yaz {
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  background-color: #ffecb5; 
+  opacity: 0;
+}
+
+.navbar-fixed-top {
+  width: 100%;
+  top: 0;
+  position: fixed !important;
+  z-index: 1;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.active {
+  color: rgba(194, 158, 31, 1) !important;
+  /* font-weight: bold !important; */
+
+}
+
+.nav-item {
+  color: rgba(255,255,255,.55);
+  display: block;
+  transition: none;
+  text-decoration: none;
+} 
+
+.nav-link-sub {
+  color: black !important;
+}
+
+.projeler-row .col-sm-3 .card {
+  overflow: hidden;
+}
+
+.card-content  {
+  opacity: 0;
+  background: rgba(3, 46, 58, 0.8);
+  transition: all 0.5s;
+  text-align: center;
+  color: #c0cbce;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-content:hover {
+  opacity: 1;
+  padding: 25% 0;
+}
